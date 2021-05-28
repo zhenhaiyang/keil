@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "stm32f4xx_hal.h": "c",
+        "capture.h": "c",
+        "usart.h": "c",
+        "pwm.h": "c",
+        "sys.h": "c",
+        "delay.h": "c",
+        "stdio.h": "c",
+        "*.tcc": "c",
+        "fstream": "c",
+        "stdint.h": "c",
+        "tpad.h": "c",
+        "gpio.h": "c",
+        "lcd.h": "c",
+        "stm32f4xx.h": "c",
+        "limits": "c",
+        "streambuf": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "fmc.h": "c",
+        "dma.h": "c",
+        "key.h": "c",
+        "queue.h": "c"
+    }
+}

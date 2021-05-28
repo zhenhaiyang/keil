@@ -6,6 +6,11 @@
   * @date    2021-01-22
   * @brief   系统初始化相关的头文件
   ******************************************************************************
+  * @version 1.1
+  * @date    2021-05-26
+  * @brief   系统初始化相关的头文件
+  *             硬件名称的修改
+  ******************************************************************************
   */
 
 #ifndef __SYS_H__
@@ -57,13 +62,13 @@ extern BitBand PHout;
 extern BitBand PIout;
 
 /* 硬件对应信息 */
-#define LED0 PBout.bit1
-#define LED1 PBout.bit0
+#define set_led_0 PBout.bit1
+#define set_led_1 PBout.bit0
 
-#define WKUP PAin.bit0
-#define KEY0 PHin.bit3
-#define KEY1 PHin.bit2
-#define KEY2 PCin.bit13
+#define get_key_wkup PAin.bit0
+#define get_key_0 PHin.bit3
+#define get_key_1 PHin.bit2
+#define get_key_2 PCin.bit13
 
 /* 函数 */
 extern void SystemClock_Config(void); //时钟系统配置
